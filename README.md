@@ -12,5 +12,9 @@ manager.close();
 
 ## Estado Managed e Detached
 
-Foi também visto que algumas contas ficam em um estado "Managed", gerenciadas pelo EntityManager e sincronizadas automaticamente com o banco de dados uma vez que ela tenha sido recuperada. Mas se a instancia do Manager for fechada, a entidade passa para uma categoria de "Detached", onde nao eh mais gerenciada pelo Manager. Ainda eh possivel usar o metodo Merge do EntityManager para sincroniza-la com o banco.
+Foi tambem visto que algumas contas ficam em um estado "Managed", gerenciadas pelo EntityManager e sincronizadas automaticamente com o banco de dados uma vez que ela tenha sido recuperada. Mas se a instancia do Manager for fechada, a entidade passa para uma categoria de "Detached", onde nao eh mais gerenciada pelo Manager. Ainda eh possivel usar o metodo Merge do EntityManager para sincroniza-la com o banco.
+
+## Relacionamentos do Hibernate
+
+Foi testado casos de relacionamentos cardinais e demonstrado como ManyToMany faz a ferramenta criar uma nova tabela no BD para relacionamento dessas entidades
 
