@@ -20,3 +20,7 @@ Foi testado casos de relacionamentos cardinais e demonstrado como ManyToMany faz
 
 Também pode-se ver a observacao de que o relacionamento OneToOne nao faz por padrao a criacao de uma constraint para unique = true, tendo essa que ser feita atraves da anotacao JoinColumn, como pode ser visto na classe Cliente.
 
+## JPQL
+
+É explorado o funcionamento da abstracao do SQL para linguagem orientada a objetos e como chama-la na classe de TesteJPQL
+

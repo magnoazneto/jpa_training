@@ -19,7 +19,7 @@ public class TestaRelacionamentoMovimentacaoCategoria {
 		Categoria categoria2 = new Categoria("Negocios");
 		
 		Conta conta = new Conta();
-		conta.setId(2L);
+		conta.setId(1L);
 		
 		Movimentacao movimentacao = new Movimentacao();
 		movimentacao.setDescricao("Viagem à SP");
@@ -30,10 +30,10 @@ public class TestaRelacionamentoMovimentacaoCategoria {
 		movimentacao.setConta(conta);
 		
 		Movimentacao movimentacao2 = new Movimentacao();
-		movimentacao2.setDescricao("Viagem à SP");
+		movimentacao2.setDescricao("Viagem à Recife");
 		movimentacao2.setTipoMovimentacao(TipoMovimentacao.SAIDA);
 		movimentacao2.setData(LocalDateTime.now());
-		movimentacao2.setValor(new BigDecimal(300.0));
+		movimentacao2.setValor(new BigDecimal(400.0));
 		movimentacao2.setCategoria(Arrays.asList(categoria, categoria2));
 		movimentacao2.setConta(conta);
 		
