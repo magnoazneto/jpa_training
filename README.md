@@ -22,5 +22,5 @@ Também pode-se ver a observacao de que o relacionamento OneToOne nao faz por pad
 
 ## JPQL
 
-É explorado o funcionamento da abstracao do SQL para linguagem orientada a objetos e como chama-la na classe de TesteJPQL
+É explorado o funcionamento da abstracao do SQL para linguagem orientada a objetos e como chama-la na classe de TesteJPQL e TesteJPQLMovimentacaoDeUmaCategoria
 
