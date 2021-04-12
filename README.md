@@ -16,5 +16,7 @@ Foi tambem visto que algumas contas ficam em um estado "Managed", gerenciadas pe
 
 ## Relacionamentos do Hibernate
 
-Foi testado casos de relacionamentos cardinais e demonstrado como ManyToMany faz a ferramenta criar uma nova tabela no BD para relacionamento dessas entidades
+Foi testado casos de relacionamentos cardinais e demonstrado como ManyToMany faz a ferramenta criar uma nova tabela no BD para relacionamento dessas entidades.
+
+Também pode-se ver a observacao de que o relacionamento OneToOne nao faz por padrao a criacao de uma constraint para unique = true, tendo essa que ser feita atraves da anotacao JoinColumn, como pode ser visto na classe Cliente.
 
