@@ -9,3 +9,7 @@ EntityManager manager = entityManagerFactory.createEntityManager();
 
 manager.close();
 ```
+
+## Estado Managed e Detached
+
+Foi também visto que algumas contas ficam em um estado "Managed", gerenciadas pelo EntityManager e sincronizadas automaticamente com o banco de dados uma vez que ela tenha sido recuperada. Mas se a instância do Manager for fechada, a entidade passa para uma categoria de "Detached", onde não é mais gerenciada pelo Manager. Ainda é possível usar o método Merge do EntityManager para sincronizá-la com o banco.
